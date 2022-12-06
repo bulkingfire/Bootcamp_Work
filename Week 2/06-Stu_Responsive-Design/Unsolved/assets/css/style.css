@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+flex will define a flex container 
 */
 nav {
   display: flex;
@@ -32,7 +32,7 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+TODO: flex wrap allows the items to be forced into multiple lines if they spill over 
 */
 main {
   display: flex;
@@ -56,7 +56,7 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
+TODO: defines how the browser distributes space between and around content items along the main axis of a flex container 
 */
 .products {
   flex: 4;
@@ -95,7 +95,7 @@ TODO: Write your answer here
 /* 
 What does the flex-direction property define?
 What is it doing here? 
-TODO: Write your answer here 
+TODO: determines the directions that the items are placed in.  
 */
 @media screen and (max-width: 768px) {
   main,
