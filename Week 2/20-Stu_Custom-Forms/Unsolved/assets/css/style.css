@@ -86,6 +86,7 @@ button {
 }
 
 /* What does this CSS rule do? */
+/*This rule removes the default select image and replaces it with the one we inputed in the correct position*/
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -113,11 +114,13 @@ select:hover, button:hover {
 }
 
 /* What does this pseudo-class mean? */
+/* when clicked on the border width will be 5px*/
 .text-input:focus {
   border-right-width: 5px;
 }
 
 /* What does this pseudo-class mean? */
+/*dashed border around the text input boxes*/
 .text-input:placeholder-shown {
   border-style: dashed;
 }
@@ -137,12 +140,14 @@ select:hover, button:hover {
 }
 
 /* What does this selector do? */
+/*changes the font when the box is checked*/
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
 /* What does this selector do? */
+/*once checked it adds font*/
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;
