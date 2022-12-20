@@ -1,4 +1,5 @@
 // TODO: What will the following line of code log?
+//logs the window object 
 console.log(window);
 
 // TODO: What will the following line of code log?

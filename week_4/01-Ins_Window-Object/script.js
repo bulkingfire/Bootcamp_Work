@@ -9,3 +9,7 @@ console.log(window.document);
 // Logs body of document
 console.log("document.body: ");
 console.log( document.body);
+
+var maxes = function(x,y){
+console.log(Math.max(x,y))
+};

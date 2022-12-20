@@ -34,5 +34,17 @@ imgEl.setAttribute("src", "http://placekitten.com/200/300");
 nameEl.setAttribute("style", "font-size:25px; text-align:center;");
 kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
+listEl.setAttribute("style", "color:white; font-size:25px; text-align:center, padding: 20px; background:#333333;");
 
 // TODO: Add ordered list items containing four favorite foods
+var L1 = document.createElement("li");
+var L2 = document.createElement("li");
+var L3 = document.createElement("li");
+
+L1.textContent = "Pizza";
+L2.textContent = "fruit";
+L3.textContent = "meat";
+
+listEl.appendChild(L1);
+listEl.appendChild(L2);
+listEl.appendChild(L3);
