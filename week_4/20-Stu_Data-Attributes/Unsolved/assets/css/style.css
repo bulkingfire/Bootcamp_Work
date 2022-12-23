@@ -21,7 +21,7 @@ h1 {
   margin: 25px auto;
 }
 .box {
-  display: block;
+  display: hidden;
   float: left;
   width: 31%;
   height: 200px;
