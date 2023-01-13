@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Media Query for Screen</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <h1>This Header</h1>
-      <p>will change colors when the screen size hits 992px or smaller.</p>
-    </header>
+<head>
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
 
-    <!-- Navbar -->
-    <nav>
-      <p>
-        This Navbar will change colors when the screen size hits 768px or
-        smaller.
-      </p>
-    </nav>
+        h1 {
+            font-size: 32px;
+            color: #333;
+        }
 
-    <!-- Body -->
-    <main>
-      <aside>
-        <h2>This is a sidebar.</h2>
-        <div class="sample-img">Image</div>
-        <p>When the screen size hits 576px or smaller...</p>
-      </aside>
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+        }
 
-      <section>
-        <h2>This is the body.</h2>
-        <div class="sample-img">Image</div>
-        <p>..all of the image placeholders will change colors!</p>
-        <br />
-        <h2>But the real problem is...</h2>
-        <div class="sample-img">Image</div>
-        <p>
-          What are we going to do about the sidebar and body columns becoming
-          squished on a smaller screen?
-        </p>
-      </section>
-    </main>
+        .profile-box {
+            margin: auto;
+            padding: 50px;
+            width: 500px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-    <!-- Footer -->
-    <footer>
-      <h3>
-        Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
-        window!
-      </h3>
-    </footer>
-  </body>
+        .profile-info {
+            margin: 20px 0;
+        }
+
+        .profile-info p {
+            margin: 0;
+        }
+
+        .profile-info p.email {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .profile-info p.bio {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+        .social-links {
+            margin: 20px 0;
+        }
+
+        .social-links a {
+            color: #333;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .social-links a:hover {
+            color: #00b0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-box">
+        <img src="https://pbs.twimg.com/profile_images/1292023969972183040/JHdUSxBK_400x400.jpg" alt="Profile Picture">
+        <h1>John Doe</h1>
+        <div class="profile-info">
+            <p class="email">john.doe@gmail.com</p>
+            <p class="bio">I am a software engineer with a passion for building web and mobile applications. I love learning new technologies and solving complex problems. In my free time, I enjoy hiking, traveling, and trying new foods.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/johndoe/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+        </div>
+    </div>
+</body>
 </html>
